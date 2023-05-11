@@ -29,7 +29,7 @@ export class AppComponent {
   }
 
   public cargarData(){
-    this.RestService.get(`http://localhost:8081/`).subscribe(respuesta =>{
+    this.RestService.get(`http://10.4.73.210:30111/`).subscribe(respuesta =>{
       this.data = respuesta;
     })
   }
