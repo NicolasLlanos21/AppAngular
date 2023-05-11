@@ -35,7 +35,7 @@ export class AppComponent {
   }
 
   public cargarDataSumas(){
-    this.RestService.get(`http://localhost:8080/`).subscribe(respuesta =>{
+    this.RestService.get(`http://10.4.73.210:30009/`).subscribe(respuesta =>{
       this.dataSum = respuesta;
     })
   }
